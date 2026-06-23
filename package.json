@@ -1,0 +1,24 @@
+{
+  "name": "playwright-form-validation",
+  "version": "1.0.0",
+  "description": "Comprehensive form testing with validation rules, error messages, and accessibility",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:ui": "playwright test --ui",
+    "test:debug": "playwright test --debug",
+    "test:headed": "playwright test --headed",
+    "report": "playwright show-report"
+  },
+  "keywords": [
+    "playwright",
+    "testing",
+    "form-validation",
+    "accessibility"
+  ],
+  "author": "Deepakkarn56",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.40.0"
+  }
+}
